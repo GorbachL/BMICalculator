@@ -30,7 +30,6 @@ public class BMICalculatorOverweightTest {
         assertEquals(category, "Your category is Overweight", "Category does not match.");
 
         System.out.println(category);
-
         browser.quit();
     }
 }

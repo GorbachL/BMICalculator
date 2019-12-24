@@ -30,7 +30,6 @@ public class BMICalculatorNormalTest {
         assertEquals(category, "Your category is Normal", "Category does not match.");
 
         System.out.println(category);
-
         browser.quit();
     }
 }

@@ -30,7 +30,6 @@ public class BMICalculatorUnderweightTest {
         assertEquals(category, "Your category is Underweight", "Category does not match.");
 
         System.out.println(category);
-
         browser.quit();
     }
 }

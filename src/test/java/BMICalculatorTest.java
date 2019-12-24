@@ -13,8 +13,8 @@ public class BMICalculatorTest {
         System.setProperty("webdriver.chrome.driver", "src/test/resources/webdrivers/chromedriver");
 
         /*
-        - 1. Open browser
-        - 2. Go to Link https://healthunify.com/bmicalculator/
+        1. Open browser
+        2. Go to Link https://healthunify.com/bmicalculator/
         3. Find element for weight
         4. Enter Weight
         5. Enter Height

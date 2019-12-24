@@ -30,7 +30,6 @@ public class BMICalculatorObeseTest {
         assertEquals(category, "Your category is Obese", "Category does not match.");
 
         System.out.println(category);
-
         browser.quit();
     }
 }

@@ -29,8 +29,7 @@ public class BMICalculatorStarvationTest {
 
         assertEquals(category, "Your category is Starvation", "Category does not match.");
 
-        //System.out.println(category);
-
+        System.out.println(category);
         browser.quit();
     }
 }
