@@ -38,13 +38,12 @@ public class BMICalculatorTest {
 
         String category = browser.findElement(By.name("desc")).getAttribute("value");
 
-        assertEquals(category, "Your category is Normal", "Category is not matched");
+        assertEquals(category, "Your category is Normal", "Category does not match.");
 
         //System.out.println(category +" - "+" SI Units: "+ siUnits +" US Units: "+ usUnits +" UK Units: "+ ukUnits);
 
         new Select(browser.findElement(By.name("opt1"))).selectByVisibleText("pounds");
 
         browser.quit();
-
     }
 }
