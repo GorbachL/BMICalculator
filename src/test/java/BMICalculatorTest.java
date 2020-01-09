@@ -10,7 +10,7 @@ public class BMICalculatorTest {
 
     @Test
     public void calculateBMICms() {
-        System.setProperty("webdriver.chrome.driver", "src/test/resources/webdrivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "src/test/resources/webdrivers/chromedriver.exe");
 
         /*
         1. Open browser
